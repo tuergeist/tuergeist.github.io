@@ -3,7 +3,7 @@ layout: post
 title: Erfolgreiche Projekte
 subtitle: Die Grundlagen vor dem Start
 categories: Projektmanagement
-tags: [Projekte, Anleitungen]
+#tags: [Projekte, Anleitungen]
 published: true
 ---
 ## Grundvoraussetzungen für erfolgreiche Projekte
