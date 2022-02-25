@@ -40,13 +40,11 @@ author: Christoph
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) 2008-{currentYear} {author}"
+copyright: "Copyright (c) 2008-{currentYear} <a href='/impressum.html'>Christoph Becker</a>."
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+    Christoph Becker löst Probleme in Softwareprojekten. Er plant, leitet und führt Projekte durch. 
+    Pragmatische und schnelle Problemlösung. Schwerpunkt verteilte Systeme (Microservices) und Python
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
@@ -150,19 +148,20 @@ translate_langs: []
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.md
+  - artikel.md
+    #  - categories.html
+    #  - tags.html
+  - ueber.html
+  - impressum.html
 
 # Page default value
 defaults:
   home:
-    heading: "I make things happen"
-    subheading: "Your awesome subheading"
-    banner: "Your image url"
+    heading: "I MAKE THINGS HAPPEN"
+    subheading: "Ich löse Ihre Probleme! Ich strukturiere, organisiere und leite Softwareprojekte, pragmatisch und zielorientiert."
+    banner: ""
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -210,3 +209,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+exclude: [ "_posts/.obsidian" , "_posts/_template" ]
