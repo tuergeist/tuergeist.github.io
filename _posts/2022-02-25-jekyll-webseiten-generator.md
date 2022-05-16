@@ -21,3 +21,5 @@ Mehr Details gibt es hier:
 - [Jekyll](https://jekyllrb.com/) mit [Jekyll Theme Yat](https://github.com/jeffreytse/jekyll-theme-yat)
 - [About GitHub pages and Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 - [Obsidian](https://obsidian.md/)
+
+Lokal können diese Seiten dann mittels `bundle exec jekyll serve` generiert und angezeigt werden.
