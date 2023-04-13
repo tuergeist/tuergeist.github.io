@@ -5,7 +5,7 @@ subtitle: Eine günstige Gelegenheit und schönes Wetter
 categories: Boot
 tags:
 - rund ums boot
-published: true
+published: false
 ---
 
 Schon länger haben wir überlegt, ob wir uns ein Boot kaufen. Genauer gesagt eine Segelyacht. Und schon länger überlegen und diskutieren wir, welches Cockpit-Layout uns besser gefällt, was wir uns wünschen, was auch schön wäre und vieles mehr.
